@@ -1,0 +1,126 @@
+
+.fv{
+  width: 100%;
+  height: 453px;
+  min-height: 453px;
+  background-image: url(../img/contact-page-bgi@2x.jpg);
+  background-size: cover;
+  background-position: bottom;
+  text-align: center;
+}
+
+.fv-copy_top{
+  font-style: italic;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.fv-copy_bottom{
+  position: absolute;
+  bottom: 40px;
+  left:48px;
+  color: white;
+  opacity: .05;
+  font-size: 9rem;
+  text-align: left;
+  margin: 0 auto;
+  font-weight: bold;
+}
+
+/* form */
+.contact {
+  padding: 97px 0 80px;
+  margin: 0 auto;
+}
+
+.contact-form{
+  width: 700px;
+  margin: 0 auto;
+}
+
+.form-item{
+  margin-bottom: 22px;
+}
+
+.form-input{
+  width: 100%;
+  height: 30px;
+  color: #282F35;
+  font-size: 1.6rem;
+  padding: 0 8px;
+  outline: none;
+  border: 1px solid #141414;
+}
+
+.form-text{
+  margin-bottom: 80px;
+}
+
+.form-text textarea{
+  outline: none;
+  resize: none;
+  color: #282F35;
+  line-height: 30px;
+  width: 100%;
+  height: 171px;
+  font-size: 1.6rem;
+  padding: 0 8px;
+  border: 1px solid #141414;
+}
+
+.form-label{
+  font-size: 1.6rem;
+  font-weight: bold;
+  display: inline-block;
+  margin-bottom: 5px;
+}
+
+.type-list{
+  font-size: 1.6rem;
+  display: flex;
+}
+
+.type-item{
+  margin-right: 20px;
+}
+
+.type-item input{
+  margin-right: 10px;
+}
+
+.btn-submit{
+ font-size: 1.6rem;
+ font-weight: bold;
+}
+
+
+/* responsive */
+@media screen and (max-width:768px){
+  .fv{
+    height: 360px;
+    min-height: 360px;
+  }
+
+  .fv-copy_top{
+    font-size: 3rem;
+  }
+
+  .fv-copy_bottom{
+    font-size: 4rem;
+    left: 15px;
+  }
+
+  .contact-form{
+    width: 345px;
+  }
+
+  .type-list{
+    flex-direction: column;
+  }
+
+  .type-item{
+    margin-bottom: 5px;
+  }
+}
